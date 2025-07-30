@@ -1,0 +1,33 @@
+
+
+
+body {
+    color: aliceblue;
+    background: black;
+}
+
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choicebox {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.choicebox button {
+    background-color: black;
+}
